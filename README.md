@@ -1,46 +1,67 @@
-# Directory Browser
+<div align="center">
 
-Directory Browser is a web application that allows users to browse their files and folders with ease. It provides a range of features to enhance the user experience while ensuring security and efficiency.
+<!-- # Directory Browser
+_Easiest way to browse your files and folders on the web._
+![](dir-browser.png) -->
+
+[![](https://user-images.githubusercontent.com/19362349/235141708-34db874f-729c-4e50-b458-a3c0cb5d6c07.png)](https://dir.adriansoftware.de)
+
+<!-- <img src="https://user-images.githubusercontent.com/19362349/235141708-34db874f-729c-4e50-b458-a3c0cb5d6c07.png" alt="" style="
+    /* overflow: hidden; */
+    object-fit: scale-down;
+    width: 100%;
+"> -->
+
+<!--
+![](p1.png)
+![](p2.png)
+-->
+</div>
+
+
+
+<h2 align="center">
+
+  Visit [dir.adriansoftware.de](https://dir.adriansoftware.de) for documentation & more! 
+
+</h2>
+
+<!-- ![image](https://github.com/adrianschubek/dir-browser/assets/19362349/102e058f-7d9e-457f-bde5-d61a8b0733f7) -->
+
+<!-- <img src="https://github.com/adrianschubek/dir-browser/assets/19362349/102e058f-7d9e-457f-bde5-d61a8b0733f7" alt="" style="
+    /* overflow: hidden; */
+    object-fit: scale-down;
+    width: 100%;
+"> -->
+
+
+## Demo
+
+https://dir-demo.adriansoftware.de
 
 ## Features
-
-- **Download Counter**: Track how many times each file has been downloaded.
-- **Secure by Default**: Provides read-only access to users for enhanced security.
-- **Fast File Serving**: Utilizes NGINX for extremely fast file serving.
-- **Markdown Rendering Support**: Supports rendering of README markdown files.
-- **JSON API**: Offers a JSON API for programmatic access to your files.
-- **Batch Downloads**: Download files and folders in a zip archive.
-- **File Integrity Check**: Ensures file integrity using hashes.
-- **Custom Descriptions and Labels**: Add custom descriptions and labels for your files and folders.
-- **Search and Sorting**: Built-in search and sorting functionalities.
-- **Password Protection**: Secure your files and folders with password protection.
-- **Hide Files and Folders**: Ability to hide specific files and folders from view.
-- **Light and Dark Mode**: Switch between light and dark themes for better accessibility.
-- **File Icons**: Visual differentiation of files with icons.
-- **Multiple Themes**: Choose from various themes to customize your experience.
-- **Clean URLs**: URLs are structured like file system paths for better readability.
-- **Low Memory Footprint**: The application runs efficiently with a low memory footprint (~10MB).
-- **Easy Setup**: Set up with a single Docker image for quick deployment.
-- **Responsive Design**: Designed to work seamlessly on both mobile devices and desktops.
-- **Environment Variable Configuration**: Easily configurable using environment variables.
-- **File Statistics**: Displays modification dates and sizes for each file.
-
-## Getting Started
-
-To run the Directory Browser, you will need Docker installed on your system. Follow the steps below to set it up.
-
-### Prerequisites
-
-- [Docker](https://docs.docker.com/get-docker/) installed on your machine.
-
-### Running the Application
-
-1. **Clone the repository**:
-
-   ```bash
-   git clone <repository-url>
-   cd <repository-directory>
-
-   docker build -t directory-browser .
-   docker run -d -p 8080:8080 --name directory-browser directory-browser
-
+- **Download counter** for all files
+- Secure by default. **Read-only** access
+- Extremly **fast** file serving through **nginx**
+- **README** markdown rendering support
+- **JSON API** for programmatic access
+- **Batch download** of files and folders in a zip archive
+- **file integrity** check with **hashes**
+- **custom description** and **labels** for files and folders
+- **Search** and **sorting** built-in
+- **Password** protection
+- **Hide** files and folders
+- Light and **Darkmode**
+- File **icons**
+- Many **Themes** available
+- **Clean URLs** equivalent to file system paths
+- **Low memory** footprint (~10MB)
+- Easy setup using single **Docker** image
+- **Responsive** design for mobile devices and desktop
+- Easily configurable using **environment variables**
+- File stats like modification dates and sizes
+- Custom JS and CSS support
+- Highlight recently updated files
+- Track request timing
+- **arm64** support
+- Works **without JavaScript** enabled
