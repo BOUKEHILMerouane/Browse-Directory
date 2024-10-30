@@ -24,11 +24,6 @@ Directory Browser is a web application that allows users to browse their files a
 - **Responsive Design**: Designed to work seamlessly on both mobile devices and desktops.
 - **Environment Variable Configuration**: Easily configurable using environment variables.
 - **File Statistics**: Displays modification dates and sizes for each file.
-- **Custom JavaScript and CSS Support**: Customize the interface with your own JS and CSS.
-- **Highlight Recently Updated Files**: Easily identify recently modified files.
-- **Request Timing Tracking**: Monitor request timings for performance analysis.
-- **ARM64 Support**: Compatible with ARM64 architecture.
-- **No JavaScript Required**: The application can function without JavaScript enabled.
 
 ## Getting Started
 
